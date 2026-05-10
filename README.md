@@ -4,7 +4,7 @@
 ┌──────────────────────────────────────────────────────────┐
 │  ╔══════════════════════════════════════════════════════╗ │
 │  ║                 Marcelo Paganini                     ║ │
-│  ║  Full Stack Developer  |  DevOps  |  Security        ║ │
+│  ║  Full Stack   | Infra  |  DevOps  |  Security        ║ │
 │  ╚══════════════════════════════════════════════════════╝ │
 └──────────────────────────────────────────────────────────┘
 ```
@@ -20,26 +20,44 @@ $ uname -a
 Linux 4li3ntr3x 6.8.0-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
 
 $ curl -s https://api.github.com/users/4li3ntr3x | jq '.bio, .location, .blog'
-"Full Stack Developer | DevOps | Security Enthusiast"
-"Argentina"
+"Full Stack | Infra | DevOps | Security"
+
 ""
 ```
 
 ---
 
 ```
-$ ./stack --list
+$ ./skills --all
 ```
 
+**💻 Development**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**☁️ Cloud & DevOps**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![Nutanix](https://img.shields.io/badge/Nutanix-024DA1?style=for-the-badge&logo=nutanix&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+**🛡️ Security & Infrastructure**
+![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-00FF00?style=for-the-badge&logo=hackthebox&logoColor=black)
+![Active Directory](https://img.shields.io/badge/Active_Directory-00A4EF?style=for-the-badge&logo=windows&logoColor=white)
+![M365](https://img.shields.io/badge/Microsoft_365-D83B01?style=for-the-badge&logo=microsoft&logoColor=white)
+
+**💾 Backup & Recovery**
+![Veeam](https://img.shields.io/badge/Veeam-00B336?style=for-the-badge&logo=veeam&logoColor=white)
+![Commvault](https://img.shields.io/badge/Commvault-0078D4?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTIgMzJhMjAgMjAgMCAwIDEgMjAtMjAgMjAgMjAgMCAwIDEgMjAgMjAgMjAgMjAgMCAwIDEtMjAgMjAgMjAgMjAgMCAwIDEtMjAtMjB6Ii8+PC9zdmc+&logoColor=white)
+
+**🔧 Tools**
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ```
 $ neofetch
